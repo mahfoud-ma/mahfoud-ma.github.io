@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:ital@1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 3000px;
+}
+
+header{
+    position: fix;
+    z-index: 100;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    background-color: rgb(240, 240, 252);
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+
+.my-name{
+    color: rgb(22, 136, 236);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.8em;
+
+}
+
+.navigation a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(22, 136, 236);
+    font-weight: 500;
+    font-size: 1.2em;
+    padding-right: 20px;
+}
+
+.navigation a:hover{
+    transition: 0.5s;
+    color: blueviolet;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    background: url(background.png) no-repeat;
+    background-size:cover ;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    position: relative;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+.main h2{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.main h2 span{
+    display: inline-block;
+    color: rgb(121, 121, 223);
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.main h3{
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    width: 600px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.view-work{
+    color: rgb(228, 228, 236);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    background-color: rgb(48, 151, 247);
+    width: 200px;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 3px;
+    transition: 0.6s ease-in-out;
+
+
+}
+
+.view-work:hover{
+    margin-top: 5px;
+    font-size: 1.2em;
+    padding: 15px 25px;
+    border-radius: 20px;
+    background-color: rgb(8, 120, 172);
+    box-shadow: rgba(17, 129, 233, 0.5);
+}
+
+.my-picture{
+   position: absolute;
+   right: 0px;
+   bottom: 0px;
+}
+
+.social-links{
+    margin-top: 40px;
+
+}
+
+.social-links a{
+    color: white;
+    font-size: 2em;
+    padding: 10px;
+    transition: 0.7s ease;
+}
+
+.social-links a:hover{
+    font-size: 2.5em;
+    color: red;
+}
