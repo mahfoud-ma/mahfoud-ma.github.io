@@ -7,11 +7,13 @@
     padding: 0px;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    
 }
 
 body{
     height: 3000px;
 }
+
 
 header{
     position: fix;
@@ -20,10 +22,11 @@ header{
     display: flex;
     flex-direction: row;
     height: 50px;
-    background-color: rgb(240, 240, 252);
+    background-color: rgb(32, 32, 32,);
     align-items: center;
     justify-content: space-between;
     padding: 20px 100px;
+    
 }
 
 .my-name{
@@ -32,7 +35,11 @@ header{
     text-transform: uppercase;
     font-weight: 900;
     font-size: 1.8em;
+    transition: 0.7s ease;
+}
 
+.my-name:hover{
+    color: red;
 }
 
 .navigation a{
@@ -52,7 +59,7 @@ header{
 .main{
     width: 100%;
     min-height: 100vh;
-    background: url(background.png) no-repeat;
+    background: url("https://i.gifer.com/Cal.gif") no-repeat;
     background-size:cover ;
     background-position: center;
     background-attachment: fixed;
@@ -135,4 +142,145 @@ header{
 .social-links a:hover{
     font-size: 2.5em;
     color: red;
+}
+
+.projects{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section h2{
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+section h2 span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: blue;
+}
+
+
+
+.project-container{
+    display: flex;
+    margin: 50px;
+}
+
+.project-snip {
+    width: 600px;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 30px;
+    margin-right: 20px;
+    transition: 0.7s ease;
+}
+.project-snip:hover{
+    width: 700px;
+}
+
+.project-title{
+    font-size: 1.2em;
+}
+
+.project-tech{
+    color: grey;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    word-spacing: 2px;
+}
+
+.project-tech span{
+    color: blue;
+    font-size: 2em;
+}
+
+.project-description{
+    font-size: 1.2em;
+    width: 500px;
+}
+
+.code-source{
+    font-size: 1.3em;
+    text-decoration: none;
+    border: 2px blue solid;
+    color: blue;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: 0.7s ease;
+}
+.code-source:hover{
+    background-color: blue;
+    color: white;
+}
+.code-source i{
+    font-size: 2em;
+    margin-left: 5px;
+}
+
+.skills{
+    background: rgba(0, 0, 0, 0.9);
+    background-size:cover ;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.skills div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skills img{
+    width: 100px;
+    margin: 50px;
+    transition: 0.7s;
+}
+.skills img:hover{
+    width: 150px;
+}
+.skills p{
+    color: white;
+    font-size: 1.2em;
+    margin-left: 50px;
+}
+
+.education{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.education h2{
+    margin-left: 0;
+}
+
+.education-card{
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.education-card-info{
+    margin-left: 50px;
+}
+.education-card-info ul{
+    margin-left: 30px;
+    margin-top: 10px; 
 }
