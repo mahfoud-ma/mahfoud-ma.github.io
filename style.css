@@ -171,16 +171,17 @@ section h2 span{
     margin: 50px;
 }
 
-.project-snip {
-    width: 600px;
+.project-container iframe {
+    width: 500px;
+    height: 281.25px;
     box-shadow: 0px 0px 10px grey;
     border-radius: 30px;
     margin-right: 20px;
     transition: 0.7s ease;
 }
-.project-snip:hover{
+/**.project-snip:hover{
     width: 700px;
-}
+}**/
 
 .project-title{
     font-size: 1.2em;
